@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { GridsterModule } from 'angular-gridster2';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -36,6 +37,7 @@ import {
 } from '@angular/material';
 import { AppComponent } from './app.component';
 import {CheckboxOverviewExample} from "./checkbox-overview-example";
+
 
 
 @NgModule({
@@ -81,7 +83,8 @@ import {CheckboxOverviewExample} from "./checkbox-overview-example";
     BrowserAnimationsModule,
     MatCheckboxModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    GridsterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
