@@ -79,7 +79,9 @@ import {CheckboxOverviewExample} from "./checkbox-overview-example";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatButtonModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
